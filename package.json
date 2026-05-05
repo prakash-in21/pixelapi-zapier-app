@@ -1,0 +1,21 @@
+{
+  "name": "pixelapi-zapier-app",
+  "version": "1.0.0",
+  "description": "Zapier integration for PixelAPI — AI image, audio, and 3D API.",
+  "license": "MIT",
+  "main": "index.js",
+  "engines": { "node": ">=18.0.0" },
+  "scripts": {
+    "test": "jest --testPathIgnorePatterns=node_modules",
+    "validate": "zapier validate",
+    "push": "zapier push",
+    "promote": "zapier promote 1.0.0"
+  },
+  "dependencies": {
+    "zapier-platform-core": "16.0.0"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0",
+    "zapier-platform-cli": "16.0.0"
+  }
+}
